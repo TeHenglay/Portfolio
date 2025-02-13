@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://drive.google.com/file/d/16TGGon7WsXZjb5rlHKK2Zq599UTq-_74/view?usp=sharing"
+            href="https://drive.google.com/file/d/1u2V7qSQx5Ojauoql40aiS9d8NX6XWHZk/view?usp=sharing"
             target="_blank"
             aria-label="MY RESUME"
           >
@@ -34,7 +34,7 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/YavYav"
+            href="https://github.com/TeHenglay"
             target="_blank"
             aria-label="View GitHub Profile"
           >
