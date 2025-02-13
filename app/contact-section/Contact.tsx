@@ -62,7 +62,7 @@ const Contact = () => {
                 }
               />
               <Link
-                href="https://cal.com/victorwilliams/30min"
+                href="https://drive.google.com/file/d/1u2V7qSQx5Ojauoql40aiS9d8NX6XWHZk/view?usp=sharing"
                 target="_blank"
                 aria-label="Send me an email"
                 className="bor der mt-1 w-[110px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:-ml-[3px] md:w-[120px] lg:mt-4"
