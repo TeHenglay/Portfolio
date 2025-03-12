@@ -32,17 +32,17 @@ export const devProjects = [
     image: require(".//../../public/projects/interlock.png"),
     available: true,
   },
-  // {
-  //   id: 2,
-  //   name: "12AM",
-  //   description:
-  //     "12AM is a project that me and my team are working on for the development as a project praticum in Year 2 of IT Engineering. The project is about E-commerce. It is a website that you can customize your Shirt ,Hooder or Jersey.",
-  //   technologies: ["React", "Next.js", "Prismic CMS"],
-  //   github: "https://github.com/victorcodess/synthetix",
-  //   demo: "https://synthetix-iota.vercel.app/",
-  //   image: require(".//../../public/projects/synthetix-flip.png"),
-  //   available: true,
-  // },
+  {
+    id: 2,
+    name: "12AM",
+    description:
+      "12AM is a project that me and my team are working on for the development as a project praticum in Year 2 of IT Engineering. The project is about E-commerce. It is a website that you can customize your Shirt ,Hooder or Jersey.",
+    technologies: ["React", "Next.js", "Prismic CMS"],
+    github: "https://github.com/victorcodess/synthetix",
+    demo: "https://synthetix-iota.vercel.app/",
+    image: require(".//../../public/projects/synthetix-flip.png"),
+    available: true,
+  },
   // {
   //   id: 3,
   //   name: "Propellent",
