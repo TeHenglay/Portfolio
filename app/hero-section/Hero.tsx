@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://drive.google.com/file/d/1u2V7qSQx5Ojauoql40aiS9d8NX6XWHZk/view?usp=sharing"
+            href="https://drive.google.com/file/d/1pEsszb1ZmNJlrWOgJiiiaJfiv6v5Zd2G/view?usp=sharing"
             target="_blank"
             aria-label="MY RESUME"
           >
@@ -118,7 +118,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Web Designer,
+            Frontend Engineer and Graphic Designer,
             currently available for work.
           </p>
         </motion.div>

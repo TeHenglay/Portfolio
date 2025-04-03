@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "TE HENGLAY — Frontend Engineer",
   description:
-    "Frontend Engineer and Web Designer, currently study at Royal University of Phnom Phen. Focused on interfaces and experiences, working remotely from Kandal, Cambodia .",
+    "Frontend Engineer and Graphic Designer, currently study at Royal University of Phnom Phen. Focused on interfaces and experiences, working remotely from Kandal, Cambodia .",
   generator: "Next.js",
   applicationName: "TE HENGLAY",
   keywords: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "TEHENGLAY — Frontend Engineer",
     description:
-      "Frontend Engineer and Web Designer, currently study at Royal University of Phnom Phen. Focused on interfaces and experiences, working remotely from Kandal, Cambodia .",
+      "Frontend Engineer and Graphic Designer, currently study at Royal University of Phnom Phen. Focused on interfaces and experiences, working remotely from Kandal, Cambodia .",
     url: "https://laszlo.icu/",
     siteName: "www.laszlo.icu",
     images: [
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "TE HENGLAY — Frontend Engineer",
     description:
-      "Frontend Engineer and Web Designer, currently at RUPP. Focused on interfaces and experiences, working remotely from Phnom Phen, Cambodia.",
+      "Frontend Engineer and Graphic Designer, currently at RUPP. Focused on interfaces and experiences, working remotely from Phnom Phen, Cambodia.",
     creator: "victorwill__",
     creatorId: "1243720976552144897",
     images: [

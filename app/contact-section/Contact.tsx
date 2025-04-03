@@ -45,7 +45,7 @@ const Contact = () => {
             />
             <div className="bor der mt-5 flex w-[298px] items-center gap-1 md:w-[335px] md:gap-2.5">
               <Link
-                href="mailto:victor.will.chuk@gmail.com?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
+                href=""
                 target="_blank"
                 aria-label="Send me an email"
                 className="bor der mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[170px] md:mt-3 lg:mt-4"
@@ -62,7 +62,7 @@ const Contact = () => {
                 }
               />
               <Link
-                href="https://drive.google.com/file/d/1u2V7qSQx5Ojauoql40aiS9d8NX6XWHZk/view?usp=sharing"
+                href="https://drive.google.com/file/d/1pEsszb1ZmNJlrWOgJiiiaJfiv6v5Zd2G/view?usp=sharing"
                 target="_blank"
                 aria-label="Send me an email"
                 className="bor der mt-1 w-[110px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:-ml-[3px] md:w-[120px] lg:mt-4"
