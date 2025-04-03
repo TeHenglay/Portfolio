@@ -12,26 +12,16 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
-    name: "Laszlo Labs",
+    name: "Cambodia Blockchain Summit",
     description:
-      " A cutting-edge collection of bots powered by Lavalink, designed to deliver high-quality. Laszlo Labs offers advanced features and smooth integration, providing users with an unparalleled audio experience in real-time.",
+      " Collaborated with the IT team to design and develop the official website for Blockchain Summit Cambodia. The site provided essential event information, including the schedule, speaker lineup, registration details, and sponsor highlights. ",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/odunsi-web3-folio",
-    demo: "https://www.odunsi.xyz/",
+    github: "",
+    demo: "https://www.blockchaincambodia.net/",
     image: require(".//../../public/projects/odunsi.png"),
     available: true,
   },
-  {
-    id: 1,
-    name: "Laszlo Box",
-    description:
-      "Laszlo Box is a high-performance Discord music bot powered by Lavalink, designed to provide users with an immersive and seamless audio experience. It offers features like high-quality streaming, playlist management, and real-time controls, making it perfect for music lovers and community-driven servers.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/interlock",
-    demo: "https://interlock-teal.vercel.app/",
-    image: require(".//../../public/projects/interlock.png"),
-    available: true,
-  },
+  
   {
     id: 2,
     name: "12AM",
@@ -39,8 +29,8 @@ export const devProjects = [
       "12AM is a project that me and my team are working on for the development as a project praticum in Year 2 of IT Engineering. The project is about E-commerce. It is a website that you can customize your Shirt ,Hooder or Jersey.",
     technologies: ["React", "Next.js", "Prismic CMS"],
     github: "https://github.com/victorcodess/synthetix",
-    demo: "https://synthetix-iota.vercel.app/",
-    image: require(".//../../public/projects/synthetix-flip.png"),
+    demo: "",
+    image: require(".//../../public/projects/logo.png"),
     available: true,
   },
   // {
