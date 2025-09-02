@@ -50,9 +50,9 @@ export const devProjects = [
     description:
       "Flixify lets you seamlessly explore movies and TV series, add bookmarks, and search across all pages. It offers user authentication along with a theme switch.",
     technologies: ["JavaScript", "Tailwind CSS", "HTML"],
-    github: "https://github.com/victorcodess/flixify",
-    demo: "https://flixify.victorwilliams.me/",
-    image: require(".//../../public/projects/flixify.png"),
+    github: "https://github.com/TeHenglay/Music-Visualizer",
+    demo: "https://music.laszlo.icu/",
+    image: require(".//../../public/projects/Music.png"),
     available: true,
   },
  
