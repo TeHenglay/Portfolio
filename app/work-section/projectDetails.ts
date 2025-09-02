@@ -26,7 +26,7 @@ export const devProjects = [
     id: 2,
     name: "TWELVE AM",
     description:
-      "12AM is a project that me and my team are working on for the development as a project praticum in Year 2 of IT Engineering. The project is about E-commerce. It is a website that you can customize your Shirt ,Hooder or Jersey.",
+      "I developed Twelve AM, a modern full-stack e-commerce platform built with Next.js and Node.js. The project features a responsive frontend using Next.js 15, Tailwind CSS, Framer Motion, GSAP, Three.js/R3F, and Radix UI, combined with a robust backend powered by Node.js, PostgreSQL (Prisma), Redis (Upstash), and JWT authentication with secure file uploads.",
     technologies: ["React", "Next.js", "Prismic CMS"],
     github: "https://github.com/TeHenglay/12TwelveAM",
     demo: "https://12am.laszlo.icu/",
