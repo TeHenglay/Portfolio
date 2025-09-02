@@ -29,29 +29,43 @@ const ProjectCard = ({
           position: "relative",
         } as React.CSSProperties
       }
-      className={`relative z-10 h-[550px]  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 sm:h-[700px] sm:w-[100%] md:h-[650px] md:w-[100%] lg:h-[500px]`}
+      className={`relative z-10 min-h-[500px] w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-6 sm:min-h-[600px] sm:w-[100%] md:min-h-[550px] md:w-[100%] lg:min-h-[480px] lg:py-8`}
       initial="initial"
       animate="animate"
     >
       <Image
   src={image}
   alt={name}
-  className={`absolute bottom-0 w-[75%] sm:w-[30%] md:w-[45%] lg:max-w-[40%] object-contain ${
-    id % 2 === 0 ? "right-0 " : "left-0"
-  }`}
+  className={`absolute bottom-2 w-[45%] sm:w-[28%] md:w-[40%] lg:w-[35%] xl:w-[30%] object-contain right-2 sm:right-4`}
 />
 
       <div
         className={`absolute top-0 text-[#0E1016] ${
-          id % 2 === 0 ? "left-0 ml-8 lg:ml-14" : "right-0 mr-8 lg:mr-14"
-        } mt-6 flex  items-center justify-center gap-4 lg:mt-10`}
+          id % 2 === 0 ? "left-0 ml-6 lg:ml-10" : "right-0 mr-6 lg:mr-10"
+        } mt-4 flex items-center justify-center gap-4 lg:mt-6 z-20`}
       >
         {available ? (
-          <>
+          <div className="flex items-center justify-center gap-4">
+            <Link
+              href={github}
+              target="_blank"
+              className="rounded-full"
+              aria-label="Open GitHub Repository"
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="w-[18px] rounded-full bg-white p-4 text-[18px] md:w-[22px] md:p-5 md:text-[22px] lg:w-[24px] lg:text-[24px]"
+                data-blobity
+                data-blobity-radius="38"
+                data-blobity-offset-x="4"
+                data-blobity-offset-y="4"
+                data-blobity-magnetic="true"
+              />
+            </Link>
             <Link href={demo} target="_blank" aria-label="Open Live Demo">
               <FontAwesomeIcon
                 icon={faLink}
-                className=" w-[20px] rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
+                className="w-[18px] rounded-full bg-white p-4 text-[18px] md:w-[22px] md:p-5 md:text-[22px] lg:w-[24px] lg:text-[24px]"
                 data-blobity
                 data-blobity-radius="38"
                 data-blobity-offset-x="4"
@@ -59,7 +73,7 @@ const ProjectCard = ({
                 data-blobity-magnetic="trues"
               />
             </Link>
-          </>
+          </div>
         ) : (
           <div className=" flex items-center justify-center gap-4">
             <Link
@@ -70,7 +84,7 @@ const ProjectCard = ({
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                className=" w-[20px]  rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
+                className="w-[18px] rounded-full bg-white p-4 text-[18px] md:w-[22px] md:p-5 md:text-[22px] lg:w-[24px] lg:text-[24px]"
                 data-blobity
                 data-blobity-radius="38"
                 data-blobity-offset-x="4"
@@ -78,8 +92,8 @@ const ProjectCard = ({
                 data-blobity-magnetic="true"
               />
             </Link>
-            <div className=" rounded-xl bg-white px-4 py-2 md:px-5 md:py-3 lg:px-6 lg:py-4">
-              <h3 className="text-[16px] md:text-[18px] lg:text-[20px] ">
+            <div className="rounded-xl bg-white px-3 py-2 md:px-4 md:py-3 lg:px-5 lg:py-3">
+              <h3 className="text-[14px] md:text-[16px] lg:text-[18px]">
                 Coming soon
               </h3>
             </div>
@@ -87,16 +101,12 @@ const ProjectCard = ({
         )}
       </div>
       <div
-        className={`absolute text-white  ${
-          !(id % 2 === 0)
-            ? "right-0 top-32 mr-0 ml-10 md:right-0 md:ml-0 lg:right-0 lg:top-60  lg:mr-4"
-            : "left-10 top-32 ml-0 md:mr-12 lg:top-52 lg:ml-4"
-        } mb-10  md:mb-16 lg:mb-14 `}
+        className={`absolute text-white z-10 left-6 top-32 lg:left-10 md:top-36 lg:top-40 mb-4 max-w-[50%] sm:max-w-[65%] md:max-w-[50%] lg:max-w-[55%]`}
       >
         <AnimatedTitle
           text={name}
           className={
-            "max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none"
+            "text-[32px] leading-tight text-white sm:text-[36px] sm:leading-tight md:text-[40px] md:leading-tight lg:text-[44px] lg:leading-tight xl:text-[48px] xl:leading-tight"
           }
           wordSpace={"mr-[0.25em]"}
           charSpace={"-mr-[0.01em]"}
@@ -104,10 +114,10 @@ const ProjectCard = ({
         <AnimatedBody
           text={description}
           className={
-            "mt-4 w-[90%] max-w-[457px] text-[16px] font-semibold text-[#95979D] "
+            "mt-3 text-[16px] font-medium text-[#95979D] sm:text-[17px] md:text-[18px] lg:mt-4 lg:text-[18px] line-clamp-4"
           }
         />
-        <div className="mt-9 flex gap-4">
+        <div className="mt-6 flex flex-wrap gap-2 lg:gap-3">
           {technologies.map((tech, id) => (
             <AnimatedTitle
               text={tech}
@@ -115,7 +125,7 @@ const ProjectCard = ({
               charSpace={"mr-[0.01em]"}
               key={id}
               className={
-                "text-[14px] font-bold uppercase md:text-[16px] lg:text-[18px] "
+                "text-[14px] font-bold uppercase sm:text-[15px] md:text-[16px] lg:text-[17px] opacity-90"
               }
             />
           ))}
