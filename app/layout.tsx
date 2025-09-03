@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "www.laszlo.icu",
     images: [
       {
-        url: "/portfolio-banner.png?v=2",
+        url: "/portfolio-banner.png",
         width: 1200,
         height: 630,
         alt: "TE HENGLAY — Web Developer",
@@ -58,10 +58,10 @@ export const metadata: Metadata = {
     title: "TE HENGLAY — Web Developer",
     description:
       "Web Developer and Graphic Designer, currently at RUPP. Focused on interfaces and experiences, working remotely from Phnom Phen, Cambodia.",
-    creator: "victorwill__",
+    creator: "HENGLAY",
     creatorId: "1243720976552144897",
     images: [
-      "/portfolio-banner.png?v=2",
+      "/portfolio-banner.png",
     ],
   },
   robots: {
