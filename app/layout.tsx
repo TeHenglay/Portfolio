@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "www.laszlo.icu",
     images: [
       {
-        url: "/portfolio-banner.png",
+        url: "/portfolio-banner.png?v=2",
         width: 1200,
         height: 630,
         alt: "TE HENGLAY — Web Developer",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     creator: "victorwill__",
     creatorId: "1243720976552144897",
     images: [
-      "/portfolio-banner.png",
+      "/portfolio-banner.png?v=2",
     ],
   },
   robots: {
