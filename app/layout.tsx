@@ -11,19 +11,19 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "TE HENGLAY — Frontend Engineer",
+  title: "TE HENGLAY — Web Developer",
   description:
-    "Frontend Engineer and Graphic Designer, currently study at Royal University of Phnom Phen. Focused on interfaces and experiences, working remotely from Kandal, Cambodia .",
+    "Web Developer and Graphic Designer, currently study at Royal University of Phnom Phen. Focused on interfaces and experiences, working remotely from Kandal, Cambodia .",
   generator: "Next.js",
   applicationName: "TE HENGLAY",
   keywords: [
     "freelance",
     "developer",
     "freelance developer",
-    "frontend",
+    "web developer",
     "react",
-    "frontend developer",
-    "frontend engineer",
+    "web developer",
+    "web developer",
     "creative",
     "creative developer",
     "creative engineer",
@@ -32,22 +32,22 @@ export const metadata: Metadata = {
     "software",
     "software developer",
     "portfolio",
-    "frontend developer portfolio",
+    "web developer portfolio",
     "creative developer portfolio",
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "TEHENGLAY — Frontend Engineer",
+    title: "TEHENGLAY — Web Developer",
     description:
-      "Frontend Engineer and Graphic Designer, currently study at Royal University of Phnom Phen. Focused on interfaces and experiences, working remotely from Kandal, Cambodia .",
+      "Web Developer and Graphic Designer, currently study at Royal University of Phnom Phen. Focused on interfaces and experiences, working remotely from Kandal, Cambodia .",
     url: "https://laszlo.icu/",
     siteName: "www.laszlo.icu",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "/portfolio-banner.png",
         width: 1200,
         height: 630,
-        alt: "TE HENGLAY — Frontend Engineer",
+        alt: "TE HENGLAY — Web Developer",
       },
     ],
     locale: "en-US",
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "TE HENGLAY — Frontend Engineer",
+    title: "TE HENGLAY — Web Developer",
     description:
-      "Frontend Engineer and Graphic Designer, currently at RUPP. Focused on interfaces and experiences, working remotely from Phnom Phen, Cambodia.",
+      "Web Developer and Graphic Designer, currently at RUPP. Focused on interfaces and experiences, working remotely from Phnom Phen, Cambodia.",
     creator: "victorwill__",
     creatorId: "1243720976552144897",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "/portfolio-banner.png",
     ],
   },
   robots: {

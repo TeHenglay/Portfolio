@@ -1,4 +1,4 @@
-# Personal Portfolio Website — v1
+# My name is TE HENGLAY, and I'm a web developer with hands-on experience in building responsive and user-friendly web interfaces. Currently pursuing a degree at the Royal University of Phnom Penh (RUPP), with a strong foundation in HTML, CSS, JavaScript, and modern web development frameworks. Adept at problem-solving, learning new technologies, and committed to creating seamless digital experiences.ersonal Portfolio Website — v1
 
 My name is TE HENGLAY, and I’m a frontend developer with hands-on experience in building responsive and user-friendly web interfaces. Currently pursuing a degree at the Royal University of Phnom Penh (RUPP), with a strong foundation in HTML, CSS, JavaScript, and modern frontend frameworks. Adept at problem-solving, learning new technologies, and committed to creating seamless digital experiences.
 

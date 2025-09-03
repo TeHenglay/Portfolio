@@ -25,7 +25,7 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "A passionate frontend developer and a student at the Royal University of Phnom Penh (RUPP), with a strong interest in creating visually appealing and user-friendly web applications."
+                "A passionate web developer and a student at the Royal University of Phnom Penh (RUPP), with a strong interest in creating visually appealing and user-friendly web applications."
               }
             />
             <AnimatedBody
@@ -54,7 +54,7 @@ const About = () => {
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
             <div className="flex flex-col gap-4 md:gap-3">
               <AnimatedTitle
-                text={"Frontend Tools"}
+                text={"Web Development Tools"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }

@@ -26,7 +26,7 @@ export const devProjects = [
     id: 2,
     name: "TWELVE AM",
     description:
-      "I developed Twelve AM, a modern full-stack e-commerce platform built with Next.js and Node.js. The project features a responsive frontend using Next.js 15, Tailwind CSS, Framer Motion, GSAP, Three.js/R3F, and Radix UI, combined with a robust backend powered by Node.js, PostgreSQL (Prisma), Redis (Upstash), and JWT authentication with secure file uploads.",
+      "I developed Twelve AM, a modern full-stack e-commerce platform built with Next.js and Node.js. The project features a responsive web interface using Next.js 15, Tailwind CSS, Framer Motion, GSAP, Three.js/R3F, and Radix UI, combined with a robust backend powered by Node.js, PostgreSQL (Prisma), Redis (Upstash), and JWT authentication with secure file uploads.",
     technologies: ["React", "Next.js", "Prismic CMS"],
     github: "https://github.com/TeHenglay/12TwelveAM",
     demo: "https://12am.laszlo.icu/",
